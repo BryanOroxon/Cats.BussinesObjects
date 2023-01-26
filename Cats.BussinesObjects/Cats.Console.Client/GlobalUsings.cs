@@ -1,0 +1,11 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Cats.BussinesObjects.Entities;
+global using Cats.BussinesObjects.Interfaces;
+global using Cats.BussinesObjects.ValueObjects;
+global using Cats.IoC;
+global using Microsoft.Extensions.Configuration;
+global using Simple.DependentyInjection;
