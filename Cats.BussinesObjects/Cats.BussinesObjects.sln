@@ -1,23 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1704.2
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.BussinesObjects", "Cats.BussinesObjects\Cats.BussinesObjects.csproj", "{202EB9BC-0683-48F5-B606-392822C25873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats.BussinesObjects", "Cats.BussinesObjects\Cats.BussinesObjects.csproj", "{202EB9BC-0683-48F5-B606-392822C25873}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nueva carpeta", "Nueva carpeta", "{5B48DEC2-E3ED-4D91-8B65-9C71E68B4083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.Models", "Cats.Models\Cats.Models.csproj", "{9F1792D9-EB4A-4905-ACF1-EA6A3C3CA2CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats.Models", "Cats.Models\Cats.Models.csproj", "{9F1792D9-EB4A-4905-ACF1-EA6A3C3CA2CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.Console.Views", "Cats.Console.Views\Cats.Console.Views.csproj", "{7E4CDAEA-7F31-4D0A-973A-2F293F5C7DAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats.Console.Views", "Cats.Console.Views\Cats.Console.Views.csproj", "{7E4CDAEA-7F31-4D0A-973A-2F293F5C7DAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.IoC", "Cats.IoC\Cats.IoC.csproj", "{E589A722-AFD3-44DB-88A9-6FE797201CCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats.IoC", "Cats.IoC\Cats.IoC.csproj", "{E589A722-AFD3-44DB-88A9-6FE797201CCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DependentyInjection", "Simple.DependentyInjection\Simple.DependentyInjection.csproj", "{342F5395-8B18-4FC1-99BB-7F0F6789AF64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple.DependentyInjection", "Simple.DependentyInjection\Simple.DependentyInjection.csproj", "{342F5395-8B18-4FC1-99BB-7F0F6789AF64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.Console.Client", "Cats.Console.Client\Cats.Console.Client.csproj", "{F3435553-9EE8-40B9-920F-42A5A9C233B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats.Console.Client", "Cats.Console.Client\Cats.Console.Client.csproj", "{F3435553-9EE8-40B9-920F-42A5A9C233B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.ViewModels", "Cats.ViewModels\Cats.ViewModels.csproj", "{58816AE2-ED80-4F25-A15B-9BA80BAB6593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats.ViewModels", "Cats.ViewModels\Cats.ViewModels.csproj", "{58816AE2-ED80-4F25-A15B-9BA80BAB6593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.WebBlazor.Client", "Cats.WebBlazor.Client\Cats.WebBlazor.Client.csproj", "{45B91F79-D342-482F-B07F-3064B66DB671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats.Web.Views", "Cats.Web.Views\Cats.Web.Views.csproj", "{FC7554D1-196F-47AA-89C6-D14AA26CD2AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,13 +57,19 @@ Global
 		{58816AE2-ED80-4F25-A15B-9BA80BAB6593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58816AE2-ED80-4F25-A15B-9BA80BAB6593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58816AE2-ED80-4F25-A15B-9BA80BAB6593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B91F79-D342-482F-B07F-3064B66DB671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B91F79-D342-482F-B07F-3064B66DB671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B91F79-D342-482F-B07F-3064B66DB671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B91F79-D342-482F-B07F-3064B66DB671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7554D1-196F-47AA-89C6-D14AA26CD2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7554D1-196F-47AA-89C6-D14AA26CD2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7554D1-196F-47AA-89C6-D14AA26CD2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7554D1-196F-47AA-89C6-D14AA26CD2AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33BDAE37-0BA1-43CE-AC88-B10A6C16D19D}
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal

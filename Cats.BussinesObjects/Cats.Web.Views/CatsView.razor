@@ -1,0 +1,23 @@
+﻿<h3>CatsView</h3>
+@if (viewModel.Cats != null)
+{
+    foreach (var item in viewModel.Cats)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@item.ImageUrl" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">@item.Description</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">@item.BasePrice</li>
+
+                </ul>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <p>Cargando...</p>
+}
